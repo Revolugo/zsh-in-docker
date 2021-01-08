@@ -13,3 +13,5 @@ wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.1/zsh-in
     -a 'POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)' \
     -a 'POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)' \
     -a 'POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%f"'
+
+apt-get install git-flow
